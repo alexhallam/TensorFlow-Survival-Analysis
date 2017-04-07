@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="304.8mm" height="203.2mm" viewBox="0 0 304.8 203.2"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g class="plotroot xscalable yscalable" id="img-2198f525-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-2198f525-2">
+    <text x="158.88" y="191.59" text-anchor="middle" dy="0.6em">idx</text>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-2198f525-3">
+    <text x="19.96" y="184.92" text-anchor="middle" dy="0.6em">0</text>
+    <text x="89.42" y="184.92" text-anchor="middle" dy="0.6em">20</text>
+    <text x="158.88" y="184.92" text-anchor="middle" dy="0.6em">40</text>
+    <text x="228.34" y="184.92" text-anchor="middle" dy="0.6em">60</text>
+    <text x="297.8" y="184.92" text-anchor="middle" dy="0.6em">80</text>
+  </g>
+<g clip-path="url(#img-2198f525-4)">
+  <g id="img-2198f525-5">
+    <g pointer-events="visible" opacity="1" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-2198f525-6">
+      <rect x="17.96" y="5" width="281.84" height="178.92"/>
+    </g>
+    <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-2198f525-7">
+      <path fill="none" d="M17.96,181.91 L 299.8 181.91"/>
+      <path fill="none" d="M17.96,123.61 L 299.8 123.61"/>
+      <path fill="none" d="M17.96,65.3 L 299.8 65.3"/>
+      <path fill="none" d="M17.96,7 L 299.8 7"/>
+    </g>
+    <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-2198f525-8">
+      <path fill="none" d="M19.96,5 L 19.96 183.92"/>
+      <path fill="none" d="M89.42,5 L 89.42 183.92"/>
+      <path fill="none" d="M158.88,5 L 158.88 183.92"/>
+      <path fill="none" d="M228.34,5 L 228.34 183.92"/>
+      <path fill="none" d="M297.8,5 L 297.8 183.92"/>
+    </g>
+    <g class="plotpanel" id="img-2198f525-9">
+      <g class="geometry" id="img-2198f525-10">
+        <g class="color_RGBA{Float32}(0.0f0,0.74736935f0,1.0f0,1.0f0)" stroke="#FFFFFF" stroke-width="0.3" fill="#00BFFF" id="img-2198f525-11">
+          <use xlink:href="#img-2198f525-12" x="23.43" y="7.58"/>
+          <use xlink:href="#img-2198f525-12" x="26.9" y="18.74"/>
+          <use xlink:href="#img-2198f525-12" x="30.38" y="28.14"/>
+          <use xlink:href="#img-2198f525-12" x="33.85" y="35.94"/>
+          <use xlink:href="#img-2198f525-12" x="37.32" y="42.39"/>
+          <use xlink:href="#img-2198f525-12" x="40.8" y="47.73"/>
+          <use xlink:href="#img-2198f525-12" x="44.27" y="52.19"/>
+          <use xlink:href="#img-2198f525-12" x="47.74" y="55.95"/>
+          <use xlink:href="#img-2198f525-12" x="51.22" y="59.14"/>
+          <use xlink:href="#img-2198f525-12" x="54.69" y="61.87"/>
+          <use xlink:href="#img-2198f525-12" x="58.16" y="64.25"/>
+          <use xlink:href="#img-2198f525-12" x="61.63" y="66.33"/>
+          <use xlink:href="#img-2198f525-12" x="65.11" y="68.16"/>
+          <use xlink:href="#img-2198f525-12" x="68.58" y="69.8"/>
+          <use xlink:href="#img-2198f525-12" x="72.05" y="71.26"/>
+          <use xlink:href="#img-2198f525-12" x="75.53" y="72.58"/>
+          <use xlink:href="#img-2198f525-12" x="79" y="73.78"/>
+          <use xlink:href="#img-2198f525-12" x="82.47" y="74.88"/>
+          <use xlink:href="#img-2198f525-12" x="85.95" y="75.89"/>
+          <use xlink:href="#img-2198f525-12" x="89.42" y="76.83"/>
+          <use xlink:href="#img-2198f525-12" x="92.89" y="77.69"/>
+          <use xlink:href="#img-2198f525-12" x="96.36" y="78.5"/>
+          <use xlink:href="#img-2198f525-12" x="99.84" y="79.26"/>
+          <use xlink:href="#img-2198f525-12" x="103.31" y="79.97"/>
+          <use xlink:href="#img-2198f525-12" x="106.78" y="80.64"/>
+          <use xlink:href="#img-2198f525-12" x="110.26" y="81.27"/>
+          <use xlink:href="#img-2198f525-12" x="113.73" y="81.87"/>
+          <use xlink:href="#img-2198f525-12" x="117.2" y="82.44"/>
+          <use xlink:href="#img-2198f525-12" x="120.68" y="82.98"/>
+          <use xlink:href="#img-2198f525-12" x="124.15" y="83.5"/>
+          <use xlink:href="#img-2198f525-12" x="127.62" y="84"/>
+          <use xlink:href="#img-2198f525-12" x="131.09" y="84.48"/>
+          <use xlink:href="#img-2198f525-12" x="134.57" y="84.93"/>
+          <use xlink:href="#img-2198f525-12" x="138.04" y="85.37"/>
+          <use xlink:href="#img-2198f525-12" x="141.51" y="85.8"/>
+          <use xlink:href="#img-2198f525-12" x="144.99" y="86.21"/>
+          <use xlink:href="#img-2198f525-12" x="148.46" y="86.6"/>
+          <use xlink:href="#img-2198f525-12" x="151.93" y="86.98"/>
+          <use xlink:href="#img-2198f525-12" x="155.41" y="87.35"/>
+          <use xlink:href="#img-2198f525-12" x="158.88" y="87.71"/>
+          <use xlink:href="#img-2198f525-12" x="162.35" y="88.06"/>
+          <use xlink:href="#img-2198f525-12" x="165.83" y="88.4"/>
+          <use xlink:href="#img-2198f525-12" x="169.3" y="88.73"/>
+          <use xlink:href="#img-2198f525-12" x="172.77" y="89.05"/>
+          <use xlink:href="#img-2198f525-12" x="176.24" y="89.36"/>
+          <use xlink:href="#img-2198f525-12" x="179.72" y="89.66"/>
+          <use xlink:href="#img-2198f525-12" x="183.19" y="89.96"/>
+          <use xlink:href="#img-2198f525-12" x="186.66" y="90.25"/>
+          <use xlink:href="#img-2198f525-12" x="190.14" y="90.53"/>
+          <use xlink:href="#img-2198f525-12" x="193.61" y="90.81"/>
+          <use xlink:href="#img-2198f525-12" x="197.08" y="91.08"/>
+          <use xlink:href="#img-2198f525-12" x="200.56" y="91.34"/>
+          <use xlink:href="#img-2198f525-12" x="204.03" y="91.6"/>
+          <use xlink:href="#img-2198f525-12" x="207.5" y="91.86"/>
+          <use xlink:href="#img-2198f525-12" x="210.97" y="92.1"/>
+          <use xlink:href="#img-2198f525-12" x="214.45" y="92.35"/>
+          <use xlink:href="#img-2198f525-12" x="217.92" y="92.59"/>
+          <use xlink:href="#img-2198f525-12" x="221.39" y="92.82"/>
+          <use xlink:href="#img-2198f525-12" x="224.87" y="93.05"/>
+          <use xlink:href="#img-2198f525-12" x="228.34" y="93.27"/>
+          <use xlink:href="#img-2198f525-12" x="231.81" y="93.5"/>
+          <use xlink:href="#img-2198f525-12" x="235.29" y="93.71"/>
+          <use xlink:href="#img-2198f525-12" x="238.76" y="93.93"/>
+          <use xlink:href="#img-2198f525-12" x="242.23" y="94.14"/>
+          <use xlink:href="#img-2198f525-12" x="245.7" y="94.34"/>
+          <use xlink:href="#img-2198f525-12" x="249.18" y="94.54"/>
+          <use xlink:href="#img-2198f525-12" x="252.65" y="94.74"/>
+          <use xlink:href="#img-2198f525-12" x="256.12" y="94.94"/>
+          <use xlink:href="#img-2198f525-12" x="259.6" y="95.13"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-2198f525-13">
+    <text x="16.96" y="181.91" text-anchor="end" dy="0.35em">0</text>
+    <text x="16.96" y="123.61" text-anchor="end" dy="0.35em">10</text>
+    <text x="16.96" y="65.3" text-anchor="end" dy="0.35em">20</text>
+    <text x="16.96" y="7" text-anchor="end" dy="0.35em">30</text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-2198f525-14">
+    <text x="8.81" y="92.46" text-anchor="middle" dy="0.35em" transform="rotate(-90, 8.81, 94.46)">cost</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-2198f525-4">
+  <path d="M17.96,5 L 299.8 5 299.8 183.92 17.96 183.92" />
+</clipPath>
+  <g id="img-2198f525-12">
+    <circle cx="0" cy="0" r="0.9"/>
+  </g>
+</defs>
+</svg>

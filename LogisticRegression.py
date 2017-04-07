@@ -1,6 +1,3 @@
-
-# coding: utf-8
-
 #import libraries
 import tensorflow as tf
 import pandas as pd
@@ -234,18 +231,13 @@ print("final accuracy on test set: %s" %str(sess.run(accuracy_OP,
                                                      feed_dict={X: testX, 
                                                                 yGold: testY})))
 
-
-# __Why don't we plot the cost to see how it behaves?__
-
-# In[ ]:
-
-get_ipython().magic(u'matplotlib inline')
-import numpy as np
-import matplotlib.pyplot as plt
-plt.plot([np.mean(cost_values[i-50:i]) for i in range(len(cost_values))])
-plt.show()
-
+#import numpy as np
+#import matplotlib.pyplot as plt
+#plt.plot([np.mean(cost_values[i-50:i]) for i in range(len(cost_values))])
+#plt.show()
 
 # Assuming no parameters were changed, you should reach a peak accuracy of 90% at the end of 
 # training, which is commendable. Try changing the parameters such as the length of training, 
 # and maybe some operations to see how the model behaves. Does it take much longer? How is the performance?
+
+np.savetxt("cost_values.csv", cost_values, delimiter=",")
