@@ -21,19 +21,19 @@ df = pd.read_csv("true.csv")
 
 #placeholders
 # None means that we don't want to specify the number of rows
-x = tf.placeholder(tf.float32, [None, 1])
+x = tf.placeholder(tf.float32, [None, 5])
 y = tf.placeholder(tf.float32, [None, 1])
 e = tf.placeholder(tf.float32, [None, 1])
 risk_true = tf.placeholder(tf.float32, [None, 1])
 #variables - initialize to vector of zeros
-W = tf.Variable(tf.zeros([1,1]))
-#b = tf.Variable(tf.zeros([1]))
+W = tf.Variable(tf.zeros([5,1]))
+b = tf.Variable(tf.zeros([1]))
 
 #model and cost
-risk = tf.matmul(x,W)
-cost = -tf.reduce_sum((risk - tf.log(tf.cumsum(tf.exp(risk_true))))*e)
+risk = tf.matmul(x,W) + b 
+cost = -tf.reduce_mean((risk - tf.log(tf.cumsum(tf.exp(risk_true))))*e)
 #Gradient Descent
-train_step = tf.train.GradientDescentOptimizer(0.001).minimize(cost)
+train_step = tf.train.GradientDescentOptimizer(0.0001).minimize(cost)
 
 #TensorFlow quarks
 init = tf.global_variables_initializer()
@@ -45,7 +45,7 @@ sess.run(init)
 #Generate data
 for i in range(1000):
     #features = np.array([[i]])
-    features = np.array(df[['x2']])
+    features = np.array(df[['x1','x2','x3','x4','x5']])
     #target = np.array([[i*4]])
     target = np.array(df[['time']])
     censored = np.array(df[['is_censored']])
@@ -55,7 +55,12 @@ for i in range(1000):
     sess.run(train_step, feed_dict=feed)
     if i % 50 == 0:
         print("After %d iteration:" % i)
-        print("W h(x): %f" % sess.run(W))
-        print("cost: %f" % sess.run(cost, feed_dict=feed))
+        print("W h(x)_1: %f" % sess.run(W[0]))
+        print("W h(x)_2: %f" % sess.run(W[1]))
+        print("W h(x)_3: %f" % sess.run(W[2]))
+        print("W h(x)_4: %f" % sess.run(W[3]))
+        print("W h(x)_5: %f" % sess.run(W[4]))
+        print("b       : %f" % sess.run(b))
+        print("cost    : %f" % sess.run(cost, feed_dict=feed))
 
 
