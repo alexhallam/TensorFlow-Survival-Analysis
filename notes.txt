@@ -1,3 +1,0 @@
-python LogisticRegression.py 
-julia5 plot_cost.jl 
-firefox cost_plot.svg 
